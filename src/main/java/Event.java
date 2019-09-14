@@ -8,9 +8,9 @@ public class Event implements Listener {
     @EventHandler
     public void OnSpawnEverything(LightningStrikeEvent event) {
         event.setCancelled(true);
-        Location stuff = event.getLightning().getLocation();
-        String stuff2 = stuff.toString();
-        Bukkit.broadcastMessage("it was called so yay!    " + stuff2);
+        Location stuff = event.getLightning().getLocation(); // this way to get the location
+      // // String stuff2 = stuff.toString();
+       // Bukkit.broadcastMessage("it was called so yay!    " + stuff2);
 
     }
 
