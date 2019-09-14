@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SpawnEvent:jar">
+    <output-path>$PROJECT_DIR$/../Coding server/serverone/plugins</output-path>
+    <root id="archive" name="SpawnEvent.jar">
+      <element id="module-output" name="SpawnEvent" />
+    </root>
+  </artifact>
+</component>
